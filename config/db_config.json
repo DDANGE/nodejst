@@ -1,0 +1,109 @@
+{
+    "my_com": {
+      "db": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "vmffpfh!@34",
+        "database": "af2",
+        "connectionLimit": 10,
+        "dateStrings": [
+          "DATE",
+          "DATETIME"
+        ]
+      },
+      "log_db": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "vmffpfh!@34",
+        "database": "log_af2",
+        "connectionLimit": 10,
+        "dateStrings": [
+          "DATE",
+          "DATETIME"
+        ]
+      },
+      "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "auth_pass": "vmffpfh!@34"
+      },
+      "redis_social": {
+        "db": 1,
+        "host": "127.0.0.1",
+        "port": 6379,
+        "auth_pass": "vmffpfh!@34"
+      }
+    },
+    "live": {
+      "db": {
+        "host": "db-8l9cu.cdb.ntruss.com",
+        "port": 3306,
+        "user": "af2_root",
+        "password": "fkdlzmdlTeoqkr1!",
+        "database": "af2",
+        "connectionLimit": 5,
+        "dateStrings": [
+          "DATE",
+          "DATETIME"
+        ]
+      },
+      "log_db": {
+        "host": "db-f95rd.cdb.ntruss.com",
+        "port": 3306,
+        "user": "af2_root",
+        "password": "fkdlzmdlTeoqkr1!",
+        "database": "log_af2",
+        "connectionLimit": 10,
+        "dateStrings": [
+          "DATE",
+          "DATETIME"
+        ]
+      },
+      "redis": {
+        "host": "redis-8lach.cdb.ntruss.com",
+        "port": 6379
+      },
+      "redis_social": {
+        "db": 1,
+        "host": "redis-8lach.cdb.ntruss.com",
+        "port": 6379
+      }
+    },
+    "qa_1": {
+      "db": {
+        "host": "10.41.180.145",
+        "port": 3306,
+        "user": "root",
+        "password": "fkdlzmdlTeoqkr1!",
+        "database": "af2",
+        "connectionLimit": 10,
+        "dateStrings": [
+          "DATE",
+          "DATETIME"
+        ]
+      },
+      "log_db": {
+        "host": "10.41.180.145",
+        "port": 3306,
+        "user": "root",
+        "password": "fkdlzmdlTeoqkr1!",
+        "database": "log_af2",
+        "connectionLimit": 10,
+        "dateStrings": [
+          "DATE",
+          "DATETIME"
+        ]
+      },
+      "redis": {
+        "host": "10.41.180.145",
+        "port": 6379
+      },
+      "redis_social": {
+        "db": 1,
+        "host": "10.41.180.145",
+        "port": 6379
+      }
+    }
+  }
